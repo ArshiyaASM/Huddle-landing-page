@@ -10,11 +10,11 @@ body {
 }
 
 header {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 header .container {
-  background-image: url("../../image/bg-hero-mobile.svg");
+  background-image: url("../img/bg-hero-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,9 +37,9 @@ header .container .bottom {
 
 header .container .bottom .left,
 header .container .bottom .right {
-  /* border: 1px solid gray; */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 header .container .bottom .right {
@@ -58,7 +58,6 @@ header .container .bottom .left .text p {
 
 header .container .bottom .left .text {
   text-align: center;
-  /* padding-right: 50px; */
 }
 
 header .container .bottom .left .text button {
@@ -80,9 +79,8 @@ header .container .bottom .left .text button:hover {
 }
 
 
-
 header .container .bottom .right img {
-  width: 100%;
+  width: calc(100% - 20px);
 }
 
 header .container .top {
@@ -93,10 +91,10 @@ header .container .top {
 
 header .container .top .left,
 header .container .top .right {
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
 }
+
 
 header .container .top .left img {
   width: 150px;

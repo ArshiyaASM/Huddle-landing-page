@@ -10,11 +10,11 @@
 
 .content {
   padding: 0px 50px;
+  margin-bottom: 500px;
 }
 
 .content .container .row .left,
 .content .container .row .right {
-  /* border: 1px solid grey; */
   height: 400px;
 }
 
@@ -26,7 +26,6 @@
 }
 
 .content .row .left .text {
-  /* border: 1px solid gray; */
   text-align: center;
 }
 
