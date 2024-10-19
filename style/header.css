@@ -1,0 +1,124 @@
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+header .container {
+  background-image: url("../../image/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+}
+
+header .container {
+  padding: 0px 30px;
+}
+
+header .container .top .bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .container .bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .container .bottom .left,
+header .container .bottom .right {
+  /* border: 1px solid gray; */
+  display: flex;
+  align-items: center;
+}
+
+header .container .bottom .right {
+  padding: 50px 0px;
+}
+
+header .container .bottom .left .text h2 {
+  line-height: 50px;
+  font-size: 30px;
+}
+
+header .container .bottom .left .text p {
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+header .container .bottom .left .text {
+  text-align: center;
+  /* padding-right: 50px; */
+}
+
+header .container .bottom .left .text button {
+  all: unset;
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: rgb(236, 76, 241);
+  padding: 15px 60px;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+header .container .bottom .left .text button:hover {
+  background-color: rgb(241, 132, 245);
+}
+
+
+
+header .container .bottom .right img {
+  width: 100%;
+}
+
+header .container .top {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+header .container .top .left,
+header .container .top .right {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+
+header .container .top .left img {
+  width: 150px;
+}
+
+header .container .top .right {
+  justify-content: flex-end;
+}
+
+header .container .top .right button {
+  all: unset;
+  cursor: pointer;
+  color: black;
+  font-size: 12px;
+  background-color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  font-weight: 600;
+}
+
+header .container .top .right button:hover {
+  color: gray;
+}
