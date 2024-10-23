@@ -1,0 +1,86 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+
+@media screen and (min-width : 768px) {
+    header .bg .bottom {
+        display: flex;
+    }
+
+    header .bg .bottom .top{
+        text-align: left;
+        padding: 50px;
+    }
+
+    header .bg .bottom .bottom img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    main > div:nth-child(odd){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    main > div:nth-child(even){
+        display: flex;
+    }
+
+    main > div > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+    main > div .bottom {
+        text-align: left;
+    }
+    main > div .top img {
+        min-width: 70%;
+        max-width: 250px;
+    }
+    footer .container .top .box h2 {
+        font-size: 25px;
+    }
+
+    footer .container .top .box {
+        width: 60%; 
+    }
+
+    footer .container .bottom .bottom {
+        display: flex;
+    }
+
+    footer .container .bottom .bottom > div {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    footer .container .bottom .section2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+
+    footer .container .bottom .bottom .section1 {
+        padding: 0px 0px;
+    }
+
+
+    footer .container .bottom .section3 {
+        padding: 0px 0px;
+        margin-left: 100px;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+
+}
