@@ -14,9 +14,17 @@
         display: flex;
     }
 
+    header .bg .bottom {
+        min-height: 500px;
+    }
+
     header .bg .bottom .top{
         text-align: left;
         padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     header .bg .bottom .bottom img{
